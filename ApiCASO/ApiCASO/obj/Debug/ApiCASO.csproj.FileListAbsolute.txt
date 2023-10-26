@@ -1,0 +1,2 @@
+C:\Users\jimen\OneDrive\Desktop\CASO\CASO\ApiCASO\ApiCASO\obj\Debug\ApiCASO.csproj.AssemblyReference.cache
+C:\Users\jimen\OneDrive\Desktop\CASO\CASO\ApiCASO\ApiCASO\obj\Debug\ApiCASO.csproj.CoreCompileInputs.cache
