@@ -1,0 +1,38 @@
+﻿@model IEnumerable<CASO.Entities.EstudianteEnt>
+
+@{
+    ViewBag.Title = "ConsultarCursos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Información de Cursos</h4>
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Monto</th>
+                        <th>DescripcionTipoCurso</th>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Fecha</td>
+                            <td>@item.Monto</td>
+                            <td>@item.TipoCurso</td>
+                            <td>@item.Nombre</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+
